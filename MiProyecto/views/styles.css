@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #414141;
+    color: #fdd29a;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#button-container {
+    display: flex;
+}
+
+button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #414141;
+    color: #FDD29A;
+    border: none;
+    cursor: pointer;
+}
+
+#content1 {
+    position: relative;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#content1::before {
+    content: "";
+    background-image: url('fondo1.png');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8; /* Ajusta este valor según tus preferencias (por ejemplo, 0.5 para una opacidad del 50%) */
+    z-index: -1; /* Asegura que la capa de fondo esté detrás del contenido */
+}
+
+#content1 img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+#content1 p {
+    color: rgb(0, 0, 0);
+    font-weight: 1000; /* Ajusta este valor según tus preferencias */
+    font-size: 36px; /* Ajusta este valor según tus preferencias */
+    margin-top: 5px;
+}
+
+/* gatitos */
+
+#content2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* Ajusta el espacio entre las imágenes */
+}
+
+.flex-container a img {
+    max-width: 100%; /* Establece el ancho máximo al 100% del contenedor padre */
+    height: auto; /* Mantiene la proporción original de la imagen */
+}
+
+.box {
+    width: 23%; /* Ajusta el ancho según sea necesario */
+    height: 200px; /* Ajusta la altura según sea necesario */
+    background-size: cover;
+    background-position: center;
+    margin-right: 1%; /* Ajusta el margen derecho según sea necesario */
+}
+
+/* gatitos fin */
+#content3 {
+    background-image: url('fondo2.png');
+    background-size: cover;
+    position: relative;
+    height: 700px; /* Ajusta la altura según sea necesario para mostrar el contenido */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: 25px;
+    color: white;
+    z-index: -1; /* Asegura que esté detrás de #content4 */
+}
+
+#funcionamiento {
+    font-size: 36px;
+    color: #414141;
+    background-color: #41414100;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1; /* Asegura que esté encima de #content3 */
+}
+
+#texto {
+    background-color: #99505000;
+    color: #7e5652;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    z-index: 1; /* Asegura que esté encima de #content3 */
+    margin: 30px;
+} 
+
+#content3 p {
+    font-size: 18px;
+}
+
+#content4 {
+    background-color: #414141;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    justify-content: 20px;
+    z-index: 1; /* Asegura que esté encima de #content3 */
+} 
+
+
+.contactame {
+    display: inside;
+    justify-content: 50px; /* Ajusta el espacio entre las imágenes */
+    
+}
+
+.contactame a img {
+    max-width: 50%; /* Establece el ancho máximo al 100% del contenedor padre */
+    height: auto; /* Mantiene la proporción original de la imagen */
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 40px;
+}
+
+
+.wsp {
+    width: 25px;
+    height: 25px;
+    margin-left:50px;
+
+}
+.ig {
+    width: 25px;
+    height: 25px;
+    margin-left:50px;
+
+}
+.fc {
+    width: 25px;
+    height: 25px;
+    margin-left:50px;
+
+}
+.pinterest {
+    width: 25px;
+    height: 25px;
+    margin-left:50px;
+}
